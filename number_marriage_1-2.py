@@ -44,6 +44,7 @@ def holy_matrimony(bride, groom):
 
 
 print """
+
 \twhat a beautiful spring morning.
 \tthe birds are jumping, the fish are chirping;
 \tand all of the owls are asleep.
@@ -124,7 +125,7 @@ print """
 
 raw_input(">> ")
 
-raw_input("\nproceed with holy matrimony? press CTRL + C to cancel >> ")
+raw_input("\n\nproceed with holy matrimony? press CTRL + C to cancel >> ")
 
 union = holy_matrimony(bride, groom)
 
@@ -137,7 +138,6 @@ print """
 raw_input(">> ")
 
 print bcolors.RED + """
-
                           <3<3<3<3<3<3
                         <3<3<3<3<3<3<3<3<3
                       <3<3<3<3<3<3<3<3<3<3<3<3
@@ -170,12 +170,12 @@ print bcolors.RED + """
                       <3<3<3<3<3<3<3<3<3<3<3<3
                         <3<3<3<3<3<3<3<3<3
                           <3<3<3<3<3<3
+""" + bcolors.ENDC
 
+raw_input(">> ")
 
-""",
-print "<3    <3    <3" + bcolors.ENDC,
+print bcolors.RED + "\n<3  <3" + bcolors.ENDC,
 print bcolors.WHITE + "%s and %s sittin' in a tree" % (bride, groom) + bcolors.ENDC,
-print bcolors.RED + "<3    <3    <3"
-print "<3  <3  <3  <3  <3" + bcolors.ENDC,
+print bcolors.RED + "<3  <3" + bcolors.ENDC,
 print bcolors.WHITE + "A-D-D-D-I-N-G" + bcolors.ENDC,
-print bcolors.RED + "<3  <3  <3  <3  <3\n" + bcolors.ENDC
+print bcolors.RED + "<3  <3\n" + bcolors.ENDC

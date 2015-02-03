@@ -172,15 +172,10 @@ print bcolors.RED + """
                           <3<3<3<3<3<3
 
 
-<3    <3    <3    <3    <3    <3    <3    <3    <3    <3    <3
 """,
 print "<3    <3    <3" + bcolors.ENDC,
 print bcolors.WHITE + "%s and %s sittin' in a tree" % (bride, groom) + bcolors.ENDC,
-print bcolors.RED + "<3    <3    <3    <3"
-print "<3    <3    <3    <3    <3" + bcolors.ENDC,
+print bcolors.RED + "<3    <3    <3"
+print "<3  <3  <3  <3  <3" + bcolors.ENDC,
 print bcolors.WHITE + "A-D-D-D-I-N-G" + bcolors.ENDC,
-print bcolors.RED + "<3    <3    <3",
-print """
-<3    <3    <3    <3    <3    <3    <3    <3    <3
-
-""" + bcolors.ENDC
+print bcolors.RED + "<3  <3  <3  <3  <3\n" + bcolors.ENDC
